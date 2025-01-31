@@ -80,9 +80,3 @@ cd bosta-task
  ┗ README.md
 ```
 
-## 🤝 Contribution
-Contributions are welcome! Feel free to submit a PR or open an issue.
-
-## 📜 License
-This project is licensed under the MIT License.
-
