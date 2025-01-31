@@ -35,9 +35,10 @@ The project follows **MVI (Model-View-Intent) architecture** for better state ha
 | **Jetpack Compose** | Modern UI toolkit for building declarative UIs |
 | **Material 3** | UI components and theming |
 | **Hilt (Dagger)** | Dependency Injection |
-| **Room Database (Future Expansion)** | Persistent data storage |
 | **Coroutines & Flow** | Asynchronous programming |
 | **Jetpack Navigation** | Managing app screens |
+| **MVI Pattern** | Architecture pattern with state managment |
+| **Generic Repository Pattern** | Generic functions and classes for mainly and commonly used functions |
 
 ## 🚀 Getting Started
 ### **1️⃣ Clone the Repository**
@@ -78,11 +79,6 @@ cd bosta-task
  ┣ build.gradle.kts
  ┗ README.md
 ```
-
-## 📌 Future Improvements
-- ✅ **Persist selected areas** in Room Database.
-- ✅ **Support multi-language** (Arabic/English).
-- ✅ **Improve performance** for large city lists.
 
 ## 🤝 Contribution
 Contributions are welcome! Feel free to submit a PR or open an issue.
