@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BostaTask</string>
+    <string name="choose_area_title">Choose the delivery area</string>
+    <string name="close">Close</string>
+    <string name="encryption_error">خطأ في التشفير</string>
+    <string name="unknown_network_error">خطأ غي معروف في الشبكة</string>
+    <string name="pick_area">Pick Area</string>
+</resources>
