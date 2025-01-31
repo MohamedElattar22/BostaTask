@@ -70,8 +70,34 @@ dependencies {
     androidTestImplementation(libs.androidx.espresso.core)
     androidTestImplementation(platform(libs.androidx.compose.bom))
     androidTestImplementation(libs.androidx.ui.test.junit4)
+    androidTestImplementation(libs.androidx.core.testing)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+
+    // kotest Dependencies
+    testImplementation(libs.kotest.assertions.core)
+    testImplementation(platform(libs.kotest.bundle))
+    testImplementation(libs.kotest.runner.junit5)
+    testImplementation(libs.kotest.property)
+    testImplementation(libs.kotlin.reflect) // Use the alias
+    testImplementation(libs.byte.buddy) // Use the alias)
+
+    //mockk
+    testImplementation(libs.mockk)
+    testImplementation(libs.kotlinx.coroutines.test)
+
+    // Turbine
+    testImplementation(libs.turbine)
+
+    //mockk
+    testImplementation(libs.mockk)
+    testImplementation(libs.kotlinx.coroutines.test)
+    androidTestImplementation(libs.mockk.android)
+    // Hilt Testing
+    androidTestImplementation(libs.google.hilt.android.testing)
+    kaptAndroidTest(libs.google.hilt.android.compiler)
+
+
 
 
     // Hilt
@@ -103,4 +129,8 @@ dependencies {
     implementation(libs.kotlinx.serialization.json) // or the latest version
 
 
+}
+
+tasks.withType<Test>().configureEach {
+    useJUnitPlatform()
 }
